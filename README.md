@@ -43,7 +43,7 @@ The process follows a simple loop:
 
     Download CIS‑CAT Lite from the CIS WorkBench (free account required).
 
-Step-by-Step
+### Step-by-Step
 
     Extract CIS‑CAT
     bash
@@ -70,7 +70,7 @@ Step-by-Step
 
     Note: Full automation of remediations is possible with configuration management tools (Ansible, Puppet) – a future enhancement.
 
-Configuration Highlights
+### Configuration Highlights
 
 Key changes made during hardening (examples):
 
@@ -97,9 +97,9 @@ Metric	Before Hardening	After Hardening
 CIS Compliance Score	~47%	75%
 Improvement	–	+28%
 
-
 We prioritised fixes that gave the biggest security gain with minimal impact on daily use. Some recommendations were deliberately skipped (e.g., removing essential packages, disabling update services) to keep the system practical.
-Lessons Learned
+
+## Lessons Learned
 
     CIS benchmarks are rigorous – They provide excellent guidance but must be interpreted contextually. Blindly following every rule can break functionality.
 
@@ -111,7 +111,7 @@ Lessons Learned
 
     Tools like CIS‑CAT are guides, not gospels – They identify gaps, but the final decision on what to fix rests on your risk tolerance and system role.
 
-Future Improvements
+## Future Improvements
 
     Automate remediations using Ansible playbooks to make hardening repeatable and faster.
 
