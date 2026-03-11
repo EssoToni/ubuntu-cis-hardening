@@ -62,7 +62,7 @@ The process follows a simple loop:
 
     Review the report
     Open the HTML file in a browser to see which checks passed/failed and read remediation advice.
-    ![CIS-CAT Assessment report1](images/assessment1.png)
+  ![CIS-CAT Assessment report1](images/assessment1.png)
 
 
     Apply remediations
@@ -70,7 +70,7 @@ The process follows a simple loop:
 
     Re‑assess
     Rerun CIS‑CAT to confirm the changes improved your score.
-    ![CIS-CAT Assessment report2](images/assessment2.png)  
+  ![CIS-CAT Assessment report2](images/assessment2.png)  
 
     Note: Full automation of remediations is possible with configuration management tools (Ansible, Puppet) – a future enhancement.
 
