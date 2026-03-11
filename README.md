@@ -1,6 +1,6 @@
 # Ubuntu 20.04 CIS Hardening 
 
-![CIS Compliance ](images/report.png)
+![CIS Compliance report ](images/report.png)
 
 ## Overview
 
@@ -22,9 +22,6 @@ This project demonstrates practical system hardening of an Ubuntu 20.04 machine 
 
 ## Process
 
-![CIS-CAT Assessment report1](images/assessment1.png)
-
-![CIS-CAT Assessment report2](images/assessment2.png)  
 *Running CIS-CAT to generate a compliance report.*
 
 The process follows a simple loop:  
@@ -59,16 +56,21 @@ The process follows a simple loop:
     ./CIS-CAT.sh -a -b benchmarks/CIS_Ubuntu_Linux_20.04_LTS_Benchmark_v1.0.0-xccdf.xml \
                  -p "Level 1 (Workstation)" -rd ./reports
 
+    ![CIS-CAT in terminal ](images/cis-cat.png)
+
     This generates an HTML report in the reports/ folder.
 
     Review the report
     Open the HTML file in a browser to see which checks passed/failed and read remediation advice.
+    ![CIS-CAT Assessment report1](images/assessment1.png)
+
 
     Apply remediations
     For each failed item, decide whether to fix it. Use the provided remediation steps (e.g., edit /etc/login.defs, disable a service with systemctl, adjust sysctl parameters).
 
     Re‑assess
     Rerun CIS‑CAT to confirm the changes improved your score.
+    ![CIS-CAT Assessment report2](images/assessment2.png)  
 
     Note: Full automation of remediations is possible with configuration management tools (Ansible, Puppet) – a future enhancement.
 
