@@ -18,7 +18,7 @@ This project demonstrates practical system hardening of an Ubuntu 20.04 machine 
 - **Benchmark**: CIS Ubuntu Linux 20.04 LTS Benchmark v1.0.0 – Level 1 (Workstation)
 - **Hardening Areas**: Authentication policies, service management, kernel parameters, file permissions, firewall (UFW), auditing (auditd)
 
-## Architecture
+## Process
 
 ![CIS-CAT Assessment report1](images/assessment1.png)
 
