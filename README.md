@@ -1,4 +1,6 @@
-# Ubuntu 20.04 CIS Hardening
+# Ubuntu 20.04 CIS Hardening 
+
+![CIS Compliance ](images/report.png)
 
 ## Overview
 
