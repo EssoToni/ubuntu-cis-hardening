@@ -1,7 +1,6 @@
 # Ubuntu 20.04 CIS Hardening
 
-![CIS Compliance Improvement](images/final-report.png)
-
+![CIS Compliance Improvement]
 ## Overview
 
 This project demonstrates practical system hardening of an Ubuntu 20.04 machine using the **CIS Benchmarks** and the **CIS-CAT Lite** assessment tool. The goal was to evaluate the default security posture of a fresh Ubuntu install, apply targeted remediations, and raise the compliance score while balancing security with usability.
@@ -22,7 +21,9 @@ This project demonstrates practical system hardening of an Ubuntu 20.04 machine 
 
 ## Architecture
 
-![Initial CIS-CAT Assessment](images/initial-assessment.png)  
+![CIS-CAT Assessment report1](images/assessment1.png)
+
+![CIS-CAT Assessment report2](images/assessment2.png)  
 *Running CIS-CAT to generate a compliance report.*
 
 The process follows a simple loop:  
@@ -97,8 +98,6 @@ Metric	Before Hardening	After Hardening
 CIS Compliance Score	~47%	75%
 Improvement	–	+28%
 
-https://images/final-report.png
-*CIS-CAT report after remediation showing 75% compliance.*
 
 We prioritised fixes that gave the biggest security gain with minimal impact on daily use. Some recommendations were deliberately skipped (e.g., removing essential packages, disabling update services) to keep the system practical.
 Lessons Learned
