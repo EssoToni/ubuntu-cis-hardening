@@ -121,5 +121,5 @@ Future Improvements
 
     Create a “baseline” hardened image for quick deployment of new systems.
 
-Author
+Author:
 Esso Maléki TONINZIBA
